@@ -7,9 +7,9 @@
 
 #let project(
   title: "",
-  author: "筑波大学情報学群 情報科学類 WORD編集部",
-  publisher: "情報科学類長",
-  editor-chief: "情報太郎",
+  author: "筑波大学電気通信研究会",
+  publisher: "筑波大学電気通信研究会",
+  editor-chief: "電通タロウ",
   editions: ((date: datetime.today(), circulation: 128),),
   keywords: (),
   body,

@@ -4,7 +4,7 @@
   title: "",
   publisher: "",
   editor-chief: "",
-  editions: (),
+  editions: (1),
 ) = {
   set page(
     header: none,
@@ -15,13 +15,13 @@
 
   pagebreak(to: "even")
 
-  text(size: 19pt)[情報科学類誌]
+  text(size: 19pt)[筑波大学電気通信研究会部誌]
   // 普通に画像を調整するべき
   move(
     dy: -4pt,
     image(
       width: 100%,
-      "assets/wordlogo.svg",
+      "assets/wordlogo.svg",  //これを電気通信研究会のロゴに変更
     ),
   )
 
@@ -47,10 +47,10 @@
         row-gutter: 10pt,
         textL[発行者], textL[#publisher],
         [], [],
-        textL[編集長], textL[#editor-chief],
-        textL[], textL[筑波大学情報学群],
-        textL[], textL[情報科学類 WORD 編集部],
-        textL[制作・編集], textL[（第三エリアC棟212号室）],
+        /*textL[編集長], textL[#editor-chief],*/
+        /*textL[], textL[筑波大学],*/
+        /*textL[], textL[筑波大学電気通信研究会],*/
+        textL[制作・編集], textL[筑波大学電気通信研究会],
         [], [],
 
         ..editions

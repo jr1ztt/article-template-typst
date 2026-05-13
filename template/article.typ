@@ -18,7 +18,7 @@
 #let article(
   title: "",
   author: "",
-  author-mark: [文#h(1em)編集部#h(1em)],
+  author-mark: [文#h(1em)筑波大学電気通信研究会#h(1em)],
   body,
 ) = {
   show: initialize
